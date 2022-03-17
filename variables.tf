@@ -68,7 +68,6 @@ variable "appId" {
 variable "client_certificate_path" {
     type = string
     description = "Path to the pfx file"
-    default = "C:\\OpenSSL\\bin\\infra-service-principal.pfx"
 }
 
 variable "client_certificate_password" {
