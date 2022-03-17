@@ -71,6 +71,9 @@ variable "client_certificate_path" {
     default = "C:\\OpenSSL\\bin\\infra-service-principal.pfx"
 }
 
+variable "client_certificate_password" {
+    type = string
+}
 /* //Uncomment this block if you authenticate service principal with secret.
 
 variable "client_secret" {

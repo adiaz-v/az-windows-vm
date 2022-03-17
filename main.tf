@@ -4,7 +4,7 @@ provider "azurerm" {
   tenant_id = "1012c700-e42c-4aa6-9f4d-3dac6033b0f4"
   client_id = var.appId
   client_certificate_path = var.client_certificate_path
-  client_certificate_password = ""
+  client_certificate_password = var.client_certificate_password
  }
 
 
