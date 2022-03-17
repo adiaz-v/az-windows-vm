@@ -38,7 +38,7 @@ resource "azurerm_network_interface" "main" {
     name                          = "ipconfiguration1"
     subnet_id                     = var.subnet_id
     private_ip_address_allocation = "static"
-    private_ip_address = "10.251.4.7"
+    private_ip_address = var.private_ip_address
   }
   depends_on = [
     azurerm_resource_group.main

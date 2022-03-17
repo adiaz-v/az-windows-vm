@@ -33,6 +33,15 @@ variable "tags" {
     }
 
 }
+////////////////VIRTUAL NETWORK / NIC VARIABLES////////////////
+
+
+variable "private_ip_address" {
+    type = string
+    default = "10.251.4.7"
+}
+
+
 
 ////////////////VIRTUAL MACHINE VARIABLES////////////////
 
