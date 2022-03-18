@@ -87,7 +87,7 @@ variable "client_certificate_password" {
 variable "client_secret" {
     type = string
     description = "Password for admin"
-    default = "kBe7Q~HgxaGqMZAYGppUWSBrwxLd2BQadVi69"
+    default = ""
   
 }
 */
